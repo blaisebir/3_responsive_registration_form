@@ -45,6 +45,7 @@ form legend {
     border-top-width: 20px;
     padding-bottom: 0px;
     padding-top: 50px;
+    color: white;
 }
 
 .contact {
@@ -67,8 +68,8 @@ select {
 select {
     border: 2px solid #eff0f1;
     border-radius: 4px;
-    background-color: #eff0f1;
     color: rgb(49, 49, 49);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #zipcode {
@@ -80,11 +81,13 @@ select {
 .fix-1 {
     margin-top: 0px;
     margin-bottom: 18px;
+    color: white;
 }
 
 .fix-2{
     margin-bottom: 12px;
     margin-top: 25px;
+    color: white;
 }
 
 ::-webkit-input-placeholder {
@@ -133,6 +136,7 @@ input[type=submit] {
     font-weight: bold;
     margin: 4px 2px;
     cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
 input[type=submit]:hover {
@@ -172,6 +176,10 @@ textarea:hover {
 
 .contact label {
     font-size: 14px;
+}
+
+label {
+    color: white;
 }
 
 .container {
@@ -325,6 +333,7 @@ textarea {
 .contact,
 .newsletter {
     background-color: rgb(39, 137, 194);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media (min-width: 768px) {
