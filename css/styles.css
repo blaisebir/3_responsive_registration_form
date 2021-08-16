@@ -97,32 +97,12 @@ select {
   }
 
 
-input:focus {
+input:focus, select:focus, textarea:focus {
     border: 3px solid rgb(66, 65, 65);
-}
-
-input:focus {
     background: #9da3a8;
     color: white;
-  }
-
-select :focus {
-    border: 3px solid rgb(66, 65, 65);
+    transition-duration: .5s;
 }
-
-select:focus {
-    background: #9da3a8;
-    color: white;
-  }
-
-textarea:focus {
-    border: 3px solid rgb(66, 65, 65);
-}
-
-textarea:focus {
-    background: #9da3a8;
-    color: white;
-  }
 
 
 input[type=submit] {
@@ -139,26 +119,15 @@ input[type=submit] {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
+  input:hover, select:hover, textarea:hover {
+    background-color: #9da3a8;
+    transition-duration: .5s;
+  }
+
 input[type=submit]:hover {
     background-color: #1db2df;
     transition-duration: .5s;
 }
-
-input:hover {
-    background-color: #9da3a8;
-    transition-duration: .5s;
-}
-
-select:hover {
-    background-color: #9da3a8;
-    transition-duration: .5s;
-}
-
-textarea:hover {
-    background-color: #9da3a8;
-    transition-duration: .5s;
-}
-
   .newsletter {
     border-style: unset;
     border-top-color: unset;
